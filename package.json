@@ -1,0 +1,35 @@
+{
+  "name": "node_backend_project",
+  "version": "1.0.0",
+  "description": "Core from all backend applications",
+  "main": "index.js",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "papaparse": "^5.1.1",
+    "sha1": "^1.1.1",
+    "tmp": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djsolis99/node_backend_project.git"
+  },
+  "author": "Jesus Solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djsolis99/node_backend_project/issues"
+  },
+  "homepage": "https://github.com/djsolis99/node_backend_project#readme"
+}
